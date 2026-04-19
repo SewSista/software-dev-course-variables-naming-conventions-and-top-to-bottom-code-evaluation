@@ -24,11 +24,11 @@ Things to reflect on:
   
 */
 
-let weekDay = "Thursday";
-let timeOfDay = "2:35 PM";
-let customerName = "Alice";
-let itemCount = 5;
-let totalCost = 20;
+let weekDay = "Thursday"; /* Set the day of the week for the transaction. */
+let timeOfDay = "2:35 PM"; /* Set the time of day for the transaction. */
+let customerName = "Alice"; /* Set the name of the customer */
+let itemCount = 5; /* lists the number of items purchased */
+let totalCost = 20; /* lists the total cost of the items purchased */
 let transactionRecord = weekDay + " " + timeOfDay + ": " + customerName + " bought " + itemCount + " items for $" + totalCost + ".";
 
 console.log(transactionRecord);
